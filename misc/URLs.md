@@ -15,4 +15,13 @@
 
 	https://arduinogetstarted.com/tutorials/arduino-modbus
 
+- ADM2582E 絶縁型 RS485 変換モジュール Ver.2 
 
+	http://strawberry-linux.com/catalog/items?code=12485
+
+	http://strawberry-linux.com/pub/adm2582e-v2-manual.pdf
+
+
+- Modbus プロトコル概説書 (in Japanese)
+
+	https://www.m-system.co.jp/mssjapanese/kaisetsu/nmmodbus.pdf
