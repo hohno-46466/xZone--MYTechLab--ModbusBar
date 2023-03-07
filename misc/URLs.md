@@ -15,7 +15,7 @@
 
 	https://arduinogetstarted.com/tutorials/arduino-modbus
 
-- ADM2582E 絶縁型 RS485 変換モジュール Ver.2 
+- ADM2582E 絶縁型 RS485 変換モジュール Ver.2 (in Japanese)
 
 	http://strawberry-linux.com/catalog/items?code=12485
 
