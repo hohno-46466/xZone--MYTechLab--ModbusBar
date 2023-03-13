@@ -29,7 +29,11 @@
   ___________________________________________________________________________________________
 */
 
-#include <ModbusMaster.h>
+#include <ModbusMaster.h> 
+// See also
+//  https://github.com/4-20ma/ModbusMaster
+//  https://github.com/4-20ma/ModbusMaster/blob/master/src/ModbusMaster.h
+
 #include <SoftwareSerial.h>
 
 #define MAX485_RE_NEG  2
@@ -62,7 +66,8 @@ void setup() {
   RS485Serial.begin(9600);
 
   // Modbus slave ID 1
-  node.begin(1, RS485Serial);
+  const uint8_t ModbusSlaveID = 1;
+  node.begin(ModbusSlaveID, RS485Serial);
 
   // Callbacks allow us to configure the RS485 transceiver correctly
   node.preTransmission(preTransmission);
@@ -71,7 +76,8 @@ void setup() {
 
 void loop() {
   // Request 2 registers starting at 0x0001
-  uint8_t result = node.readInputRegisters(0x0001, 2);
+  const uint16_t ReadAddress = 0x0001;
+  uint8_t result = node.readInputRegisters(ReadAddress, 2); // readInputRegisters(ReadAddress, Qty)
   Serial.println("Data Requested");
 
   if (result == node.ku8MBSuccess) {
