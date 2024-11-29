@@ -1,0 +1,23 @@
+#
+# Prev update: Sun Nov 21 23:30:02 JST 2021 by @hohno_at_kuimc
+# Last update: Fri Aug 16 04:43:28 JST 2024 by @hohno_at_kuimc
+#
+.DS_Store
+__MACOSX
+\#*.*
+*.swp
+*.bak
+*~
+# added by @hohno_at_kuimc at Thu Jun 30 20:28:17 JST 2022
+.#*.*
+#
+# added by @hohno_at_kuimc at Sat Jul 16 15:21:56 JST 2022
+#
+.dummy4GHCG.tsv
+.README.md-tmp*
+#
+# added by @hohno_at_kuimc at Sun Oct 15 12:40:54 JST 2023
+#
+a.out
+#
+# -EOF-
